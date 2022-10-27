@@ -22,17 +22,19 @@
 
 % for hyperlinks
 \usepackage{hyperref}
-
-\hypersetup{
-    colorlinks=true,     
-    urlcolor=blue
-}
+%
+% for lorem ipsum/dummy text
+\usepackage{lipsum}
 
 %=== Document Setup ===%
 
 % set margin
-\usepackage[margin=1in]{geometry}
-\setlength\parindent{0pt}
+% use 2cm at the top if no header is used
+% use 2.5cm at the bottom if fotter is used
+\usepackage[left=3cm, right=2cm, top=2.5cm, bottom=2cm]{geometry}
+
+% sets automatic indent off
+% \setlength\parindent{0pt}
 
 % headline
 \usepackage{fancyhdr}
@@ -42,11 +44,11 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\rhead{Lösungen}
-\lhead{Evaluation von IT-Sicherheitsproblemen}
-\cfoot{\thepage}
+\rhead{Page \thepage}
+\lhead{Thesis Title}
+% \cfoot{}
 
-% code block	
+% for inline code blocks
 \usepackage{listings}
 \usepackage{xcolor}
 
@@ -61,7 +63,7 @@
     breaklines=true,                 
     captionpos=b,                    
     keepspaces=true,                 
-    % numbers=left,                    
+    numbers=left,                    
     numbersep=5pt,                  
     showspaces=false,                
     showstringspaces=false,
@@ -75,6 +77,10 @@
 \begin{document}
 
 \include{sections/titlepage.tex}
+
+\tableofcontents
+
+\include{sections/example.tex}
 
 \end{document}
 
