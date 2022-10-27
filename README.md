@@ -63,7 +63,7 @@ Sections can be added under `src/sections` as `.tex` files. To include them in y
 \begin{document} % specifies begin of document
 % ...
 
-\include{sections/titlepage.tex} the titlepage
+\include{sections/titlepage.tex} % the titlepage
 
 \tableofcontents % generates a table of contents of the sections down below
 
