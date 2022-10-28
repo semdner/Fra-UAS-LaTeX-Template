@@ -1,5 +1,5 @@
 # Frankfurt University of Applied Sciences: LaTeX Template
-A LaTeX template for scientific essays based on [Handreichung: Wissenschafftliche Arbeiten](https://www.yumpu.com/de/document/read/31685236/handreichung-wissenschaftliche-arbeiten-elearning-der-fh-) by Prof. Dr. Alexandra Caspari for Frankfurt University of Applied Sciences.
+A LaTeX template for scientific essays based on [Handreichung: Wissenschafftliche Arbeiten](https://www.yumpu.com/de/document/read/31685236/handreichung-wissenschaftliche-arbeiten-elearning-der-fh-) by Prof. Dr. Alexandra Caspari for students of Frankfurt University of Applied Sciences.
 
 ## Project Structure
 
