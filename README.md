@@ -26,8 +26,8 @@ DIN A4, one-sided
 
 **Margins:**
 
-- left: 3cm
-- right: 2cm (2.5 if no header is used)
+- left: 2.5cm
+- right: 2.5cm (Differs from Handreichung: Wissenschaftliche Arbeiten)
 - top: 2.5cm
 - bottom: 2cm
 
