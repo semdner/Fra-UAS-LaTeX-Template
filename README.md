@@ -46,7 +46,7 @@ Clone this repository to your local machine. To use this template, download this
 
 Sections can be added under `src/sections` as `.tex` files. It is recommended to create a subfolder for each section you create and place subsections in it. Here an example:
 
-```css
+```bash
 └── sections
     ├── 0_information
     │   ├── abstract.tex
