@@ -37,7 +37,7 @@ To use this template, download this repository. The `README.md` file can be dele
     - `declaration_of_authorship.tex`: Contains the declaration of authorship. Replace your name here.
     - `titlepage.tex`: Replace the course information, personal information, title and subtitle.
 - `main.tex`: This is the main file for inserting text and sections.
-- `references.bib`: Insert your references here file contains the references for the paper using BibTeX.
+- `references.bib`: Insert your references here using BibTeX standard.
 - `main.pdf`: The final generated PDF file.
 
 ## Usage
