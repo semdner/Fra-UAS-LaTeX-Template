@@ -4,7 +4,7 @@ This LaTeX paper template is intended for students of the Frankfurt University o
 
 ## Project Structure
 
-To use this template, download this repository. The `README.md` file can be deleted because the actual LaTeX template is contained in the `src_de`/`src_eng` folders. Replace the folder name with any name, such as the name of your essay. The structure of folders are the following:
+To use this template, download this repository. The `README.md` file can be deleted because the actual LaTeX template is contained in the `src_de`/`src_eng` folders. Replace the folder name with any name, such as the name of your essay. The structure of the folders are the following:
 
 ```bash
 ├── src_de
