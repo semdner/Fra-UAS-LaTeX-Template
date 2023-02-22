@@ -1,4 +1,7 @@
 \documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{lipsum}  
 
 %=== Packages ===%
 
@@ -6,6 +9,16 @@
 % \usepackage[ngerman]{babel}
 % \usepackage[utf8]{inputenc}
 % \usepackage[T1]{fontenc}
+
+% decrease caption size
+\usepackage{caption}
+\captionsetup{font=footnotesize}
+
+% chess board
+\usepackage{xskak}
+
+% multiple footnotes
+\usepackage[multiple]{footmisc}
 
 % add graphics
 \usepackage{graphicx}
@@ -21,10 +34,18 @@
 \usepackage{tabularx}
 
 % for hyperlinks
-\usepackage{hyperref}
-%
-% for lorem ipsum/dummy text
-\usepackage{lipsum}
+\usepackage[hidelinks]{hyperref}
+
+% Bibliography/Citations
+\usepackage{cite}
+\usepackage{natbib}
+
+% Draw Pictures
+\usepackage{tikz}
+
+\usepackage{ifthen}
+
+\usepackage{acronym}
 
 %=== Document Setup ===%
 
@@ -32,9 +53,6 @@
 % use 2cm at the top if no header is used
 % use 2.5cm at the bottom if fotter is used
 \usepackage[left=3cm, right=2cm, top=2.5cm, bottom=2cm]{geometry}
-
-% sets automatic indent off
-% \setlength\parindent{0pt}
 
 % headline
 \usepackage{fancyhdr}
@@ -45,7 +63,7 @@
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Page \thepage}
-\lhead{Thesis Title}
+\lhead{Title}
 % \cfoot{}
 
 % for inline code blocks
@@ -80,13 +98,25 @@
 
 \include{sections/titlepage.tex}
 
-\include{sections/declaration_of_authorship.tex}
+\newpage
+
+\include{sections/abstract.tex}
 
 \restoregeometry
 
 \tableofcontents
 
-\include{sections/example.tex}
+\newpage
+\addcontentsline{toc}{section}{References}
+\bibliographystyle{chicago}
+\nocite{*}
+\bibliography{references}
+
+\newpage
+
+\newgeometry{left=2.5cm, right=2.5cm, top=2.5cm, bottom=2.5cm}
+
+\include{sections/declaration_of_authorship.tex}
 
 \end{document}
 
