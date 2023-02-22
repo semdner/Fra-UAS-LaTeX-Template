@@ -1,6 +1,6 @@
 # Frankfurt University of Applied Sciences: LaTeX Template
 
-This LaTeX paper template is intended for students and researchers of the Frankfurt University of Applied Sciences who wish to write essays in LaTeX. It includes two folders, `src_de` for the German version and `src_eng` for the English version. The document structure is partly based on [Handreichung: Wissenschafftliche Arbeiten](https://www.yumpu.com/de/document/read/31685236/handreichung-wissenschaftliche-arbeiten-elearning-der-fh-) by Prof. Dr. Alexandra Caspari for students of Frankfurt University of Applied Sciences.
+This LaTeX paper template is intended for students of the Frankfurt University of Applied Sciences who wish to write essays in LaTeX. It includes two folders, `src_de` for the German version and `src_eng` for the English version. The document structure is partly based on [Handreichung: Wissenschafftliche Arbeiten](https://www.yumpu.com/de/document/read/31685236/handreichung-wissenschaftliche-arbeiten-elearning-der-fh-) by Prof. Dr. Alexandra Caspari for students of Frankfurt University of Applied Sciences.
 
 ## Project Structure
 
