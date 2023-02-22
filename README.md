@@ -82,7 +82,7 @@ To include them in your document open `main.tex` and use the `\include` or `\inp
 
 To add code predefined listings are included. Here an example usage:
 
-```tex
+```latex
 \begin{lstlisting}[language=programming_language]
 % your code here
 \end{lstlisting}
