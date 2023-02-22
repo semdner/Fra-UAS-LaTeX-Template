@@ -42,7 +42,6 @@ This LaTeX paper template is intended for students of the Frankfurt University o
 
 Clone this repository to your local machine. To use this template, download this repository. The `README.md` file can be deleted because the actual LaTeX template is contained in the `src_de`/`src_eng` folders. Replace the folder name with any name, such as the name of your essay. Use a LaTeX editor to modify the files as necessary. Compile the `main.tex` file to generate the final PDF document.
 
-
 **Include Sections:**
 
 Sections can be added under `src/sections` as `.tex` files. It is recommended to create a subfolder for each section you create and place subsections in it. Here an example:
