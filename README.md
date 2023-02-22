@@ -75,7 +75,7 @@ To include them in your document open `main.tex` and use the `\include` or `\inp
 %=================%
 
 %...
-\begin{document} % specified end of document
+\begin{document} % specifies end of document
 ```
 
 **Code Blocks:**
