@@ -4,8 +4,6 @@ This LaTeX paper template is intended for students of the Frankfurt University o
 
 ## Project Structure
 
-To use this template, download this repository. The `README.md` file can be deleted because the actual LaTeX template is contained in the `src_de`/`src_eng` folders. Replace the folder name with any name, such as the name of your essay. The structure of the folders are the following:
-
 ```bash
 ├── src_de
 │   ├── graphics
@@ -42,7 +40,7 @@ To use this template, download this repository. The `README.md` file can be dele
 
 ## Usage
 
-Clone this repository to your local machine. Navigate to either the `src_de` or `src_eng` folder, depending on which language you prefer to write your paper in. Use a LaTeX editor to modify the files as necessary. Compile the main.tex file to generate the final PDF document.
+Clone this repository to your local machine. To use this template, download this repository. The `README.md` file can be deleted because the actual LaTeX template is contained in the `src_de`/`src_eng` folders. Replace the folder name with any name, such as the name of your essay. Use a LaTeX editor to modify the files as necessary. Compile the `main.tex` file to generate the final PDF document.
 
 
 **Include Sections:**
