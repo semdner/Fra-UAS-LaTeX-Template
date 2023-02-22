@@ -6,7 +6,7 @@ This LaTeX paper template is intended for students and researchers of the Frankf
 
 To use this template, download this repository. The `README.md` file can be deleted because the actual LaTeX template is contained in the `src` folder. Replace the `src` folder name with any name, such as the name of your essay. The structure of `src` the the following
 
-```css
+```bash
 ├── src_de
 │   ├── graphics
 │   ├── sections
